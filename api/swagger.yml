@@ -14,13 +14,13 @@ tags:
   - name: mock
     description: Mock data related api.
 paths:
-  /user:
+  /etfs:
     get:
       tags:
         - user
       summary: Get Mock List
       description: Return a list of mock.
-      operationId: getUserInfo
+      operationId: getEtfsInfo
       responses:
         200:
           description: OK
